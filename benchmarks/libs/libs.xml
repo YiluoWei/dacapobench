@@ -91,7 +91,7 @@
     </target>
 
     <!-- h2 -->
-    <property name="h2-version" value="1.4.200"/>
+    <property name="h2-version" value="2.0.206"/>
     <property name="h2-jar" value="${lib-base}/h2/dist/jar/h2-${h2-version}.jar"/>
     <target name="h2">
         <ant antfile="${lib-base}/h2/build.xml"/>
@@ -99,7 +99,7 @@
 
     <!-- lucene -->
     <property name="lucene-major-version" value="8.11"/>
-    <property name="lucene-version" value="${lucene-major-version}.0"/>
+    <property name="lucene-version" value="${lucene-major-version}.1"/>
     <property name="lucene-version-snapshot" value="${lucene-version}-SNAPSHOT"/>
     <property name="lucene-build-dir" value="${lib-base}/lucene/build/lucene-${lucene-version}"/>
     <property name="lucene-jars" value="${lib-base}/lucene/dist/jar"/>

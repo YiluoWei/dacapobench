@@ -12,10 +12,10 @@
     <property file="dacapo.properties"/>
 
     <property name="bm-name" value="biojava"/>
-    <property name="bm-version" value="6.0.1"/>
+    <property name="bm-version" value="6.0.4"/>
     <property name="bm-src" value="${bm-name}-${bm-name}-${bm-version}.tar.gz"/>
     <property name="bm-git-url" value="${github.url}/${bm-name}/${bm-name}"/>
-    <property name="bm-git-commit" value="1f4998e134c0abe66ed402c636ca44c08e0a1a54"/>
+    <property name="bm-git-commit" value="f5791b64f8ca79d1738f69494bb3c9d0bbe3b76e"/>
 
     <import file="../common.xml"/>
 
